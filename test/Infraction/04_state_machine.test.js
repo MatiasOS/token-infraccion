@@ -28,7 +28,7 @@ contract('Infraction', accounts => {
   let tokenId;
   let infraction;
 
-  /*
+
   describe('State machine', async () => {
     describe('Happy approved path', async () => {
       before(async () => {
@@ -104,5 +104,5 @@ contract('Infraction', accounts => {
       })
     })
   })
-  */
+ 
 })
