@@ -18,7 +18,6 @@ contract('Infraction', accounts => {
       await ix.mint(_carId, _proofUrl + c, _proofDate + c, _gpsCoordsLat + c, _gpsCoordsLon + c);
     }
   })
-/*
   describe('Data access', async () => {
     it('List all infraction by car identifiers', async () => {
       const totalInfractions = await ix.getTotalInfractionsByCarId(_carId);
@@ -63,5 +62,4 @@ contract('Infraction', accounts => {
       
   })
   })
-  */
 })
