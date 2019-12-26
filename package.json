@@ -13,7 +13,9 @@
     "truffle-flattener": "^1.4.2",
     "truffle-hdwallet-provider": "^1.0.17"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eth-gas-reporter": "^0.2.14"
+  },
   "scripts": {
     "compile": "truffle compile",
     "deploy:ropsten": "truffle migrate --network ropsten",
