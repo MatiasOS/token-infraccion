@@ -22,7 +22,7 @@
     "deploy:ropsten": "truffle migrate --network ropsten",
     "network": "ganache-cli",
     "network:docker": "docker run -d -p 8545:8545 trufflesuite/ganache-cli:latest",
-    "test": "truffle test"
+    "test": "truffle test --network ropsten"
   },
   "repository": {
     "type": "git",
