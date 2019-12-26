@@ -1,3 +1,4 @@
 script:
+  - npm install truffle
   - npm test
   - npx codechecks
