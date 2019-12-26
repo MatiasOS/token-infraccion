@@ -10,4 +10,3 @@ script:
   - ganache-cli -p 8545 > /dev/null &
   - sleep 5
   - npm test
-  - npx codechecks
