@@ -1,4 +1,6 @@
 script:
   - npm install truffle
+  - npm install ganache-cli
+  - ganache-cli &
   - npm test
   - npx codechecks
