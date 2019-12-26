@@ -4,7 +4,7 @@ language: node_js
 node_js:
 - "10"
 install:
-- npm install -g truffle@5.0.39 ganache-cli eth-gas-reporter
+- npm install -g truffle ganache-cli eth-gas-reporter
 - npm install
 script:
   - ganache-cli -p 8545 > /dev/null &
