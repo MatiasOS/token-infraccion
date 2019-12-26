@@ -1,5 +1,6 @@
 script:
   - npm install truffle
+  - npm install eth-gas-reporter
   - npm install -g ganache-cli
   - ganache-cli -p 8545 > /dev/null &
   - sleep 5
