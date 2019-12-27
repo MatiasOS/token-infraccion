@@ -9,7 +9,7 @@ require('chai')
  * This constants are defined inside the smart contract as "enum InfractionStatus {...}"
  * This MUST be a copy, in same oreder, of InfractionStatus.
  */
-const 
+const
   PENDIENTE = 0,
   APROBADA = 1,
   ABONADA = 2,
@@ -74,7 +74,7 @@ contract('Infraction', accounts => {
         tokenId = result.logs[0].args.tokenId;
         infraction = await ix.getInfractionByTokenId(tokenId);
       })
-   
+
       it('Infraction should be in state `PENDIENTE`', async () => {
         assert.equal(infraction.status, PENDIENTE);
       })
@@ -104,5 +104,5 @@ contract('Infraction', accounts => {
       })
     })
   })
- 
+
 })
